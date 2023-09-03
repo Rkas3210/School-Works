@@ -12,9 +12,26 @@
         h1{
             color:burlywood;
         }
+        h2{
+            color:crimson;
+        }
         .about{
             color:cadetblue;
         }
+        table#issuesAndChallenges, th, td {
+        border: 3px solid black;
+        border-collapse: collapse;
+        }
+        th{
+            background-color: rgba(220, 20, 60, 0.200);
+            color:burlywood;
+        }
+        .head{
+            color:darkgoldenrod;
+            font-weight: bold;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body leftmargin="20" rightmargin="20">
@@ -36,7 +53,7 @@
     
     <h1>Some Types of Cyberattacks</h1>
     <div class="about">
-        There are several different types of cyber attacks which are in the following:
+        There are several different types of cyber attacks, some of them are:
         <ul>
         
             <li>
@@ -57,5 +74,43 @@
         </ul>
     </div>
     <br>
+    
+    <h1>Cybersecurity Issues and Challenges in 2023</h1>
+    <br>
+    
+    <table id="issuesAndChallenges">
+        <tr>
+            <th>Issues</th>
+            <th>About</th>
+        </tr>
+        <tr>
+            <td class="head">Ransomware Extortion</td>
+            <td class="about">
+                Ransomware began as malware focused on extorting payments via data encryption. By denying legitimate users access to their data by encrypting it, the attackers could demand a ransom for its recovery. <br>
+                The process of encrypting every file on a target system is time-consuming — making it possible to save some data by terminating the malware before data is encrypted — and companies have the potential to restore from backups without paying the ransom. <br>
+                Double extortion attacks added data theft to data encryption, and some ransomware operators have shifted to focus solely on the extortion effort, skipping encryption entirely. These ransomware data breaches are faster to carry out, harder to detect, and cannot be fixed using backups, making them a more effective approach for cybercriminals and a greater threat to businesses.
+            </td>
+        </tr>
+        <tr>
+            <td class="head">
+                Cloud Third-Party Threats
+            </td>
+            <td class="about">
+                Companies are increasingly adopting cloud computing, a move with significant security implications. Unfamiliarity with cloud security best practices, the cloud shared security model, and other factors can make cloud environments more vulnerable to attack than on-prem infrastructure. <br>
+                While cybercriminals are increasingly targeting cloud infrastructure with exploits for new vulnerabilities, an emerging and worrying tactic is the targeting of cloud service providers. By targeting cloud service providers and cloud solutions with their attacks, a cybercriminal can gain access to their customers’ sensitive data and potentially their IT infrastructure. By exploiting these trust relationships between organizations and their service providers, attackers can dramatically increase the scale and impact of their attacks.
+            </td>
+        </tr>
+        <tr>
+            <td class="head">
+                Mobile Malware
+            </td>
+            <td class="about">
+                As mobile devices have become more widely used, mobile malware has emerged as a growing threat. Mobile malware masquerading as legitimate and harmless applications — such as QR code readers, flashlights, and games — have grown more common on official and unofficial app stores. <br>
+                These attempts to infect users’ mobile devices have expanded from fake apps to cracked and custom versions of legitimate apps. Cybercriminals are offering unofficial versions of apps as malicious APKs via direct downloads and third-party app stores. These apps are designed to take advantage of name recognition to slip malware onto employee devices.
+            </td>
+        </tr>
+        
+    </table>
+    
 </body>
 </html>
